@@ -6,7 +6,7 @@ from sqlalchemy.orm import relationship
 from __init__ import db
 
 class Friends(db.Model):
-    __tablename__ = 'Friends'
+    __tablename__ = 'friends'
 
     id = db.Column('ID', db.BigInteger, primary_key=True)
     name = db.Column('Name', db.String(45))

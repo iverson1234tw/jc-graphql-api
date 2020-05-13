@@ -17,7 +17,7 @@ app = Flask(__name__) #--- app initialization ---#
 #################
 
 app.config['JSON_AS_ASCII'] = False
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:ee4821251@127.0.0.1/JCDatabase'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://bd124680468514:f16f96da@us-cdbr-east-06.cleardb.net/heroku_a3153404947af13'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 app.config['SQLALCHEMY_ECHO'] = False
 
