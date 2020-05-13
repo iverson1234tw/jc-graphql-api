@@ -8,3 +8,4 @@ graphene
 SQLAlchemy
 flask_sqlalchemy
 pymysql
+graphene_sqlalchemy_filter
