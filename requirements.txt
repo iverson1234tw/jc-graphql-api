@@ -4,3 +4,4 @@ requests
 flask-cors
 graphql-python
 flask_graphql
+graphene
